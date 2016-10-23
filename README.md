@@ -16,7 +16,7 @@ The two first comment blocks of file can be used to pass parameters to the compi
   ```.jade / .pug
   //output:output.html
   ```
-  If you avoid this comment, the file is omitted by the compiler.
+  If you avoid this comment, the file will be saved as {fileName}.html.
 
   The output parameter supports relatives paths and two variables replacement.
   * $1: Name of the original jade file
